@@ -1,2 +1,5 @@
-# Ignore cofig files
-config.py
+# Ignore pycache
+__pycache__
+
+# Ignore env files
+.env

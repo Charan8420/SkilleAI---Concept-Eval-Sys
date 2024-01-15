@@ -2,6 +2,8 @@
 
 Note: Currently, this only produces questions based on the uploaded blog. Working on automating evaluation of answers.
 
+You can find the deployed version of the app here: [https://evalsystem.onrender.com](https://evalsystem.onrender.com).
+
 ### Table of Contents
 
 -   [Description](#description)
@@ -48,7 +50,7 @@ source ces/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Create a file called config.py in the application folder and add the OPENAI_API_KEY. The key is in the mail.
+5. Create a .env file and add the OPENAI_API_KEY. The key is in the mail.
 
 ```python
 OPENAI_API_KEY = "YOUR_API_KEY"
@@ -58,12 +60,6 @@ OPENAI_API_KEY = "YOUR_API_KEY"
 
 ```bash
 flask run
-```
-
-7. Optional: Instead of Step-5, you can also run the example1.py or example2.py file with a preloaded blog to save time. Note: You must be in the root folder to run the example files.
-
-```bash
-python example1.py
 ```
 
 ## Usage
